@@ -1,57 +1,41 @@
 body{
+    margin: 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.topnav{
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #080f25;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-.nav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: darkslateblue; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    text-align: center;
+li {
+  float: left;
+}
 
-    ul{
-        list-style-type: none;
-        padding: 0%;
-        }
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  li{
-    border: 1px ridge rgb(181, 249, 245);
-  }
+a:hover{
+  background-color: deepskyblue;
+}
+}
 
-  li:hover{
-    background-color: lightseagreen;
-  }
-  
-  /* The navigation menu links */
-  .nav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .nav a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
 
   .ebn{
-    margin-left: 160px;
+    margin-top: 50px;
   }
   .day1{
 
@@ -60,6 +44,7 @@ body{
         color: aliceblue;
         background-color: rgba(0, 0, 0, 0.493);
         text-shadow: 0 0 3px #000007, 0 0 5px #0000FF;
+        margin: 3px;
 
 
     }
